@@ -349,6 +349,8 @@ div#tarteaucitronServices {
         max-width: 100% !important;
         top: 0 !important;
         width: 100% !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
     }
 
     #tarteaucitron .tarteaucitronBorder {
@@ -500,11 +502,14 @@ div#tarteaucitronServices {
     top: 6%;
     width: 860px;
     z-index: 2147483647;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
 }
 
 #tarteaucitron .tarteaucitronBorder {
     background: #fff;
-    border: 2px solid #333;
+    border: 0;
     border-top: 0;
     height: auto;
     overflow: auto;
